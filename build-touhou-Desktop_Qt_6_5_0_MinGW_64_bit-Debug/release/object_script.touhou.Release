@@ -1,10 +1,12 @@
 release/deathui.o
+release/formalui.o
 release/gameui.o
 release/main.o
 release/pauseui.o
 release/settleui.o
 release/startui.o
 release/moc_deathui.o
+release/moc_formalui.o
 release/moc_gameui.o
 release/moc_pauseui.o
 release/moc_settleui.o

@@ -1,10 +1,12 @@
 debug/deathui.o
+debug/formalui.o
 debug/gameui.o
 debug/main.o
 debug/pauseui.o
 debug/settleui.o
 debug/startui.o
 debug/moc_deathui.o
+debug/moc_formalui.o
 debug/moc_gameui.o
 debug/moc_pauseui.o
 debug/moc_settleui.o
