@@ -1,5 +1,6 @@
 #include "UIformal.h"
 #include "UIgame.h"
+#include "QGRItemjumpto.h"
 #include <QStackedWidget>
 #include <QApplication>
 
@@ -33,9 +34,12 @@ int main(int argc,char* argv[]){
     w->addWidget(musicroom_5);
     w->addWidget(danmakudesign_6);
 
+    //静态成员变量的初始化
+    QGRItemJumpTo::stackedWidget=w;
+
     //初始化页面并展示
     w->setCurrentWidget(0);
-    w->showFullScreen();
+    w->show/*FullScreen*/();
 
     return a.exec();
 }

@@ -121,10 +121,10 @@ compiler_moc_header_make_all: release/moc_QGRItemjumpto.cpp release/moc_UIformal
 compiler_moc_header_clean:
 	-$(DEL_FILE) release\moc_QGRItemjumpto.cpp release\moc_UIformal.cpp release\moc_UIgame.cpp
 release/moc_QGRItemjumpto.cpp: ../touhou/QGRItemjumpto.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/QObject \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qstackedwidget.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qglobal.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qtversionchecks.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qconfig.h \
@@ -167,8 +167,19 @@ release/moc_QGRItemjumpto.cpp: ../touhou/QGRItemjumpto.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qtresource.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qttranslation.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qstringview.h \
@@ -212,63 +223,43 @@ release/moc_QGRItemjumpto.cpp: ../touhou/QGRItemjumpto.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qscopeguard.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qobject_impl.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/qline.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qshareddata_impl.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qset.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainterpath.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-		../../../Qt/6.5.0/mingw_64/include/QtCore/qline.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsView \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsview.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qscrollarea.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
-		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
-		../../../Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
@@ -283,11 +274,22 @@ release/moc_QGRItemjumpto.cpp: ../touhou/QGRItemjumpto.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/QList \
+		../../../Qt/6.5.0/mingw_64/include/QtCore/QObject \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/QRect \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/QSize \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/QTransform \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainterpath.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsView \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsview.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qscrollarea.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
 		release/moc_predefs.h \
 		../../../Qt/6.5.0/mingw_64/bin/moc.exe
@@ -819,6 +821,8 @@ release/QGRItemjumpto.o: ../touhou/QGRItemjumpto.cpp ../../../Qt/6.5.0/mingw_64/
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
 		../touhou/QGRItemjumpto.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qstackedwidget.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainterpath.h
@@ -1330,8 +1334,12 @@ release/main.o: ../touhou/main.cpp ../touhou/UIformal.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
 		../touhou/UIgame.h \
+		../touhou/QGRItemjumpto.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QStackedWidget \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qstackedwidget.h \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QGraphicsRectItem \
+		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
+		../../../Qt/6.5.0/mingw_64/include/QtGui/qpainterpath.h \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
 		../../../Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
 		../../../Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \
