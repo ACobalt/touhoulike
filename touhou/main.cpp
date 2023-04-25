@@ -1,3 +1,4 @@
+#include "SceneInitial.h"
 #include "UIformal.h"
 #include "UIgame.h"
 #include "QGRItemjumpto.h"
@@ -22,6 +23,14 @@ int main(int argc,char* argv[]){
     sui_4 = new FormalUi;
     musicroom_5 = new FormalUi;
     danmakudesign_6 = new FormalUi;
+
+    //生成各个界面Ui的Scene
+    SceneInitial* sceneInitial;
+    sceneInitial=new SceneInitial;
+
+    //把各个Scene和View绑定
+    init_0->setScene(sceneInitial);
+
 
     //生成页面栈,把各个界面加进去
     QStackedWidget* w;
