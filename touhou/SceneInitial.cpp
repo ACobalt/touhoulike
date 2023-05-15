@@ -4,8 +4,11 @@
 SceneInitial::SceneInitial(QObject *parent)
     : QGraphicsScene{parent}
 {
-    StartGame=new QGRItemJumpTo(0,0,100,100);
+    StartGame=new QGRItemJumpTo();
+    StartGame->setPixmap(QPixmap(":/pictures/Pictures/transparent.png"));
     StartGame->SetTarget(1);
+    addItem(StartGame);
+    setFocus();
     setFocusItem(StartGame);
 }
 
