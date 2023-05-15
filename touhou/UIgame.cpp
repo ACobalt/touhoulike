@@ -3,6 +3,7 @@
 
 GameUi::GameUi()
 {
+    //背景和视图设置
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setBackgroundBrush(QBrush(Qt::NoBrush));

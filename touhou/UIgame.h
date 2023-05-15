@@ -2,6 +2,7 @@
 #ifndef UIGAME_H
 #define UIGAME_H
 
+#include "SelfBody.h"
 #include <QGraphicsView>
 
 #include <QWidget>

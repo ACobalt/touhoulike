@@ -4,5 +4,6 @@
         <file>Pictures/transparent.png</file>
         <file>Pictures/gamebackground.png</file>
         <file>Pictures/gameforeground.png</file>
+        <file>Pictures/ayaself.png</file>
     </qresource>
 </RCC>

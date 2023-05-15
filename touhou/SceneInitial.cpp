@@ -8,7 +8,6 @@ SceneInitial::SceneInitial(QObject *parent)
     StartGame->setPixmap(QPixmap(":/pictures/Pictures/transparent.png"));
     StartGame->SetTarget(1);
     addItem(StartGame);
-    setFocus();
     setFocusItem(StartGame);
 }
 

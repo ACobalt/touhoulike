@@ -3,6 +3,7 @@
 #define SCENEGAME_H
 
 #include "QGPIForeGround.h"
+#include "SelfBody.h"
 #include <QGraphicsScene>
 #include <QTimer>
 #include <QWidget>
@@ -15,9 +16,11 @@ public:
     explicit SceneGame(QObject *parent = nullptr);
     void init();
 private:
+    SelfBody* aya;
     QGPIForeGround* foreground;
     bool IsRun;
     QTimer timecounter;
+
 };
 
 #endif // SCENEGAME_H
