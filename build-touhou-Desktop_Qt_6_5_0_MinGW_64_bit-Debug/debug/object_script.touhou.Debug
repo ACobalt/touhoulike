@@ -3,6 +3,7 @@ debug/QGRItemjumpto.o
 debug/SceneGame.o
 debug/SceneInitial.o
 debug/SelfBody.o
+debug/SelfBullet.o
 debug/UIformal.o
 debug/UIgame.o
 debug/main.o
@@ -11,5 +12,6 @@ debug/moc_QGRItemjumpto.o
 debug/moc_SceneGame.o
 debug/moc_SceneInitial.o
 debug/moc_SelfBody.o
+debug/moc_SelfBullet.o
 debug/moc_UIformal.o
 debug/moc_UIgame.o

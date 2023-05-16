@@ -6,6 +6,7 @@ SOURCES += \
     SceneGame.cpp \
     SceneInitial.cpp \
     SelfBody.cpp \
+    SelfBullet.cpp \
     UIformal.cpp \
     UIgame.cpp \
     main.cpp
@@ -16,6 +17,7 @@ HEADERS += \
     SceneGame.h \
     SceneInitial.h \
     SelfBody.h \
+    SelfBullet.h \
     UIformal.h \
     UIgame.h
 

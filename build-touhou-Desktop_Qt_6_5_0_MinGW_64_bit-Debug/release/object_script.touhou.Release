@@ -3,6 +3,7 @@ release/QGRItemjumpto.o
 release/SceneGame.o
 release/SceneInitial.o
 release/SelfBody.o
+release/SelfBullet.o
 release/UIformal.o
 release/UIgame.o
 release/main.o
@@ -11,5 +12,6 @@ release/moc_QGRItemjumpto.o
 release/moc_SceneGame.o
 release/moc_SceneInitial.o
 release/moc_SelfBody.o
+release/moc_SelfBullet.o
 release/moc_UIformal.o
 release/moc_UIgame.o
