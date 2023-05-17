@@ -6,5 +6,7 @@
         <file>Pictures/gameforeground.png</file>
         <file>Pictures/ayaself.png</file>
         <file>Pictures/yellow.png</file>
+        <file>Pictures/enemy.png</file>
+        <file>Pictures/red.png</file>
     </qresource>
 </RCC>

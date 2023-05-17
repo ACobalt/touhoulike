@@ -1,6 +1,8 @@
 QT += core gui widgets
 
 SOURCES += \
+    EnemyBody.cpp \
+    EnemyBullet.cpp \
     QGPIForeGround.cpp \
     QGRItemjumpto.cpp \
     SceneGame.cpp \
@@ -12,6 +14,8 @@ SOURCES += \
     main.cpp
 
 HEADERS += \
+    EnemyBody.h \
+    EnemyBullet.h \
     QGPIForeGround.h \
     QGRItemjumpto.h \
     SceneGame.h \

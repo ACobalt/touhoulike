@@ -10,4 +10,3 @@ SceneInitial::SceneInitial(QObject *parent)
     addItem(StartGame);
     setFocusItem(StartGame);
 }
-

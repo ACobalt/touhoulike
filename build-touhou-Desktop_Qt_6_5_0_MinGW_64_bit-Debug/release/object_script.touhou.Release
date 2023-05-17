@@ -1,3 +1,5 @@
+release/EnemyBody.o
+release/EnemyBullet.o
 release/QGPIForeGround.o
 release/QGRItemjumpto.o
 release/SceneGame.o
@@ -8,6 +10,8 @@ release/UIformal.o
 release/UIgame.o
 release/main.o
 release/qrc_Pictures.o
+release/moc_EnemyBody.o
+release/moc_EnemyBullet.o
 release/moc_QGRItemjumpto.o
 release/moc_SceneGame.o
 release/moc_SceneInitial.o

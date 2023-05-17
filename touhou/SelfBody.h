@@ -7,16 +7,18 @@
 #include <QGraphicsItem>
 #include <QGraphicsView>
 
-class SelfBody : public QObject,public QGraphicsEllipseItem
+class SelfBody : public QObject,public QGraphicsItem
 {
     Q_OBJECT
+    Q_INTERFACES(QGraphicsItem)
 public:
+    bool IsRun;
     SelfBody();
     void advance(int phase);
     void DoCollision();
     QRectF boundingRect()  const;
     void paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget);
-    QPainterPath shape();
+    QPainterPath shape() const;
 };
 
 #endif // SELFBODY_H

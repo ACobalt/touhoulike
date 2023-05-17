@@ -1,3 +1,5 @@
+debug/EnemyBody.o
+debug/EnemyBullet.o
 debug/QGPIForeGround.o
 debug/QGRItemjumpto.o
 debug/SceneGame.o
@@ -8,6 +10,8 @@ debug/UIformal.o
 debug/UIgame.o
 debug/main.o
 debug/qrc_Pictures.o
+debug/moc_EnemyBody.o
+debug/moc_EnemyBullet.o
 debug/moc_QGRItemjumpto.o
 debug/moc_SceneGame.o
 debug/moc_SceneInitial.o

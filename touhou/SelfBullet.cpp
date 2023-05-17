@@ -11,17 +11,20 @@ SelfBullet::SelfBullet()
 void SelfBullet::advance(int phase){
     if(!phase)
         return;
-    DoCollision();
     moveBy(0,-10);
-    Clear();
+    if(y()<17){
+        Clear();
+        return;
+    }
 }
 
 void SelfBullet::DoCollision(){
+    if(!collidingItems().isEmpty()){
 
+    }
 }
 
 void SelfBullet::Clear(){
-    if(y()<17)
-        delete this;
+    delete this;
 }
 

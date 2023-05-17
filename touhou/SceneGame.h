@@ -20,7 +20,6 @@ public:
 private:
     SelfBody* aya;
     QGPIForeGround* foreground;
-    bool IsRun;
     QTimer* timecounter;
     QTimer* shoottimer;
     QTimer* up;
@@ -34,6 +33,7 @@ private slots:
     void movedown();
     void moveleft();
     void moveright();
+    void IsEnd();
 };
 
 #endif // SCENEGAME_H
